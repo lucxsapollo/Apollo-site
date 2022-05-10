@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #12354f;
+    font-size: 100%;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 24px
+}
+
+.item-cabeçalho{
+    color: white;
+    font-size: 30px;
+    font-family: 'Sarala', sans-serif;
+}
