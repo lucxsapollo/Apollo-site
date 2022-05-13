@@ -108,5 +108,40 @@ body {
     
 }
 
+/*Projetos*/
 
-  
+ul {
+    list-style: none
+  }
+
+  .projetos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #FFF2E7;
+    border-radius: 10px;
+}
+
+.imagem-projeto {
+    width: 400px;
+    
+}
+
+.projetos h2 {
+    color: #FFF2E7;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+
+}
+
+.projetos p {
+    color: #FFF2E7;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
