@@ -82,7 +82,8 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     margin-left: 20%;
-    margin-top: 10%; }
+    margin-top: 10%; 
+}
 
 .conteudo-principal-imagem {
     height: 530px;
@@ -156,4 +157,42 @@ ul {
 
 .projetos li:hover h2{
     font-size: 34px;
+}
+
+/*conteudo terceiro*/
+
+.conteudo-terceiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    margin-left: auto;
+}
+
+.conteudo-terceiro-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    margin-bottom: 16px;
+    color: #FFF2E7
+}
+
+.conteudo-de-contato {
+    display: flex;
+    align-items: center;
+}
+
+.icon-telegram {
+    width: 60px;
+}
+
+.icon-linkedin {
+    width: 74px;
+}
+
+.icon-instagram {
+    width: 55px;
 }
